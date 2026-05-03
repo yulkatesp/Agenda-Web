@@ -45,6 +45,81 @@ Está diseñado bajo el patrón **Modelo - Vista - Controlador (MVC)**, aseguran
 
 ---
 
+## Arquitectura del Proyecto (MVC)
+
+El sistema sigue el patrón **Modelo - Vista - Controlador (MVC)**, separando responsabilidades para mejorar la mantenibilidad y escalabilidad.
+
+### Estructura general
+
+```plaintext
+Agenda-Web/
+│
+├──  Web Pages (Vista)
+│   ├── META-INF/
+│   ├── WEB-INF/
+│   ├── assets/              → Recursos estáticos (CSS, imágenes, etc.)
+│   ├── js/
+│   │   └── calendario.js    → Lógica en frontend
+│   ├── index.jsp            → Página principal
+│   ├── Agregar.jsp
+│   ├── Calendario.jsp
+│   ├── Notas.jsp
+│   ├── Tareas.jsp
+│   ├── Reloj.jsp
+│   ├── Pagin.jsp
+│   ├── PostRegistro.jsp
+│   └── loginFail.jsp
+│
+├──  Source Packages
+│   │
+│   ├──  model (Modelo)
+│   │   ├── Actividad.java   → Entidad de actividades
+│   │   └── Usuario.java     → Entidad de usuarios
+│   │
+│   ├──  DAO (Acceso a datos)
+│   │   ├── conexion.java            → Conexión a BD
+│   │   ├── TestConnection.java      → Prueba de conexión
+│   │   ├── UsuarioDAO.java          → CRUD de usuarios
+│   │   ├── ActividadDAO.java        → CRUD de actividades
+│   │   └── VerActividadesServlet.java
+│   │
+│   ├──  controller (Controlador)
+│   │   ├── login.java
+│   │   ├── postRegistro.java
+│   │   ├── control.java
+│   │   ├── ActividadServlet.java
+│   │   ├── EliminarActividadServlet.java
+│   │   ├── EstadoActividadServlet.java
+│   │   ├── EventosServlet.java
+│   │   ├── RelojServlet.java
+│   │   └── TareasServlet.java
+│
+├──  Test Packages
+├──  Dependencies
+└──  Project Files
+```
+
+---
+
+###  Flujo de la aplicación
+
+1. El usuario interactúa con las vistas (**JSP**)
+2. Las peticiones son enviadas a los **Servlets (Controladores)**
+3. Los controladores procesan la lógica y llaman a los **DAO**
+4. Los DAO interactúan con la base de datos
+5. La información regresa a la vista para ser mostrada
+
+---
+
+###  Separación de responsabilidades
+
+* **Vista (JSP, JS, CSS):** Interfaz de usuario
+* **Controlador (Servlets):** Manejo de peticiones y lógica
+* **Modelo (Java Classes):** Representación de datos
+* **DAO:** Acceso y manipulación de la base de datos
+
+---
+
 ## Características técnicas
 
 * Implementación de **patrón MVC**
@@ -55,7 +130,7 @@ Está diseñado bajo el patrón **Modelo - Vista - Controlador (MVC)**, aseguran
 
 ---
 
-## ▶️ Cómo ejecutar el proyecto
+## Cómo ejecutar el proyecto
 
 1. Clonar el repositorio:
 
