@@ -24,6 +24,12 @@ Está diseñado bajo el patrón **Modelo - Vista - Controlador (MVC)**, aseguran
 
 ---
 
+## Demo video
+
+[![Demo del proyecto](src/main/webapp/assets/Portada.png)]([https://youtu.be/0bS4qOZti9Q](https://youtu.be/JRyC3fmDpYU))
+
+---
+
 ## Funcionalidades principales
 
 * Autenticación de usuarios
