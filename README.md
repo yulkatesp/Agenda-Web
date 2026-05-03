@@ -1,19 +1,10 @@
+<div align="center">
+
 # Sistema de Gestión de Tareas y Actividades
 
 Aplicación web fullstack desarrollada para la gestión de pendientes y tareas dentro de una organización. Implementa arquitectura MVC para administrar actividades, usuarios y permisos de manera eficiente.
 
 ---
-
-## Descripción
-
-Este sistema permite gestionar tareas y actividades mediante una interfaz web, ofreciendo funcionalidades completas de autenticación, control de acceso y operaciones CRUD.
-
-Está diseñado bajo el patrón **Modelo - Vista - Controlador (MVC)**, asegurando una estructura organizada, escalable y mantenible.
-
----
-
-## Tecnologías utilizadas
-
 ![Java](https://img.shields.io/badge/Java-8+-orange)
 ![JSP](https://img.shields.io/badge/JSP-Dynamic%20Web-blue)
 ![Servlets](https://img.shields.io/badge/Servlets-JavaEE-green)
@@ -22,6 +13,14 @@ Está diseñado bajo el patrón **Modelo - Vista - Controlador (MVC)**, aseguran
 ![MySQL](https://img.shields.io/badge/MySQL-Database-lightblue)
 ![NetBeans](https://img.shields.io/badge/NetBeans-IDE-purple)
 ![MVC](https://img.shields.io/badge/Arquitectura-MVC-black)
+
+</div>
+
+## Descripción
+
+Este sistema permite gestionar tareas y actividades mediante una interfaz web, ofreciendo funcionalidades completas de autenticación, control de acceso y operaciones CRUD.
+
+Está diseñado bajo el patrón **Modelo - Vista - Controlador (MVC)**, asegurando una estructura organizada, escalable y mantenible.
 
 ---
 
