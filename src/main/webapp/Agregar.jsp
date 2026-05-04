@@ -18,7 +18,7 @@
         </header>
 
         <div class="container-add"><h1>¡Bienvenida! <br> Acá puedes crear una cuenta.</h1>
-            <form action="postRegistro" method="POST">
+            <form action="${pageContext.request.contextPath}/postRegistro" method="post">
 
                 <label for="nombre">Ingresa tu nombre: </label><br><br>
                 <input type="text" id="nombre" name="nombre" placeholder="Nombre" required><br><br>
