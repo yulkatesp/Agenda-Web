@@ -9,7 +9,7 @@ public class conexion {
     // Railway te dará estos valores automáticamente en sus variables de entorno
     private static final String HOST = System.getenv("MYSQLHOST") != null ? System.getenv("MYSQLHOST") : "localhost";
     private static final String PORT = System.getenv("MYSQLPORT") != null ? System.getenv("MYSQLPORT") : "3306";
-    private static final String DB_NAME = System.getenv("MYSQLDATABASE") != null ? System.getenv("MYSQLDATABASE") : "agenda_diaria";
+    private static final String DB_NAME = System.getenv("MYSQLDATABASE") != null ? System.getenv("MYSQLDATABASE") : "railway";
     private static final String USER = System.getenv("MYSQLUSER") != null ? System.getenv("MYSQLUSER") : "root";
     private static final String PASS = System.getenv("MYSQLPASSWORD") != null ? System.getenv("MYSQLPASSWORD") : "Rocky2603*";
 
