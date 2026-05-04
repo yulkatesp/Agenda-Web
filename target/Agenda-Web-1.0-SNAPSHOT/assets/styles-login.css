@@ -1,0 +1,312 @@
+body {
+    background-color: #FFE9EF
+}
+
+header {
+    background-color: #FFBCCD;
+    font-family: 'Gill Sans';
+    width: 98%;
+    height: 80px;
+    align-content: center;
+    border-left: 30px solid #FF9CB5;
+    border-radius: 10px;
+}
+
+.user-info {
+    font-size: 16px;
+    color: #d85c8b;
+    margin-left: 25px;
+}
+
+.footer {
+    width: 100%;
+    background: #FFBCCD;
+    color: #de5f92;
+    text-align: center;
+    padding: 18px 10px;
+    font-family: 'Gill Sans', 'Segoe UI', sans-serif;
+    bottom: 0;
+    left: 0;
+    box-shadow: 0 -4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.footer p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.footer-sub {
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 4px;
+    opacity: 0.85;
+}
+
+.title {
+    margin-left: 10px;
+    color: #de5f92;
+    font-family: 'Gill Sans';
+    font-size: 22px;
+}
+
+
+.container {
+    background-color: #FFD1DE;
+    width: 450px;
+    height: 450px;
+    align-items: center;
+    align-content: center;
+    margin-top:80px;
+    margin-left: 500px;
+    border-radius: 20px;
+    font-size: 12px;
+    color: #de5f92;
+    box-shadow: 5px 5px #ffa0bd;
+}
+
+.error{
+    display: flex;
+    background-color: #FFD1DE;
+    width: 250px;
+    height: 210px;
+    font-family: 'Gill Sans', 'Segoe UI', sans-serif;
+    align-items: center;
+    align-content: center;
+    margin-top:20px;
+    margin-left: 100px;
+    border-radius: 20px;
+    font-size: 18px;
+    color: #de5f92;
+    flex-wrap: wrap;
+
+}
+
+.logo {
+    margin-left: 150px;
+    margin-top: -30px;
+    width: 150px;
+    height: 150px;
+}
+
+.usr {
+    background-color: #FFE9EF;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    margin-top:-55px;
+    margin-left: 100px;
+    border-radius: 30px
+}
+
+.in-usr {
+    background-color: #FFE9EF;
+    border-radius: 30px;
+    border-color: #FFE9EF;
+    width: 300px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    color: #a83c68;
+    font-size: 15px;
+}
+
+.passw {
+    background-color: #FFE9EF;
+    width: 300px;
+    height: 50px;
+    align-items: center;
+    align-content: center;
+    margin-top:-55px;
+    margin-left: 100px;
+    border-radius: 30px
+}
+
+.in-passw {
+    background-color: #FFE9EF;
+    border-radius: 30px;
+    border-color: #FFE9EF;
+    width: 300px;
+    height: 50px;
+    border: none;
+    text-align: center;
+    color: #a83c68;
+    font-size: 15px;
+}
+
+.btn-login {
+    background-color: #ffa0bd;
+    width: 200px;
+    height: 50px;
+    border-radius: 20px;
+    margin-left: 130px;
+    border: none;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.login {
+    width: 180px;
+    height: 27px;
+    border: none;
+    background-color: #ffa0bd;
+    display: inline-block;
+    border-radius: 20px;
+    color: #a83c68;
+    font-family: 'Gill Sans';
+    font-size: 15px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+.login:hover {
+    width: 180px;
+    height: 27px;
+    background-color: #ff87aa;
+    align-content: center;
+    align-items: center;
+    color: #FFE9EF;
+}
+.titulo {
+    position: fixed;
+    background: #FFD1DE;
+    width: 500px;
+    height: 80px;
+    font-size: 25px;
+    margin-left: 30%;
+    margin-top: 60px;
+    align-content: center;
+    font-family: 'Gill Sans';
+    text-align: center;
+    border-radius: 20px;
+    color: #de5f92;
+    box-shadow: 5px 5px #FF9CB5;
+}
+
+.container-item {
+    background-color: #FFD1DE;
+    display: flex;
+    width: 1000px;
+    height: 400px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 210px;
+    border-radius: 100px;
+    gap: 50px;
+    box-shadow: 5px 5px #ffa0bd;
+}
+
+.btn-crud, .btn-calendario, .btn-temporizador, .btn-tareas {
+    background-color: #ffc1d3;
+    border-radius: 80px;
+    border: 3px solid #de5f92;
+    width: 180px;
+    height: 180px;
+    text-align: center;
+    color: #a83c68;
+
+    border-color: #de5f92;
+    text-decoration: none;
+    box-shadow: none;
+
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-crud:hover, .btn-calendario:hover, .btn-temporizador:hover, .btn-tareas:hover{
+    border: 6px solid #FFE9EF;
+    box-shadow: 2px 2px 2px #FFC1DA;
+}
+
+.btn-crud:active, .btn-calendario:active, .btn-temporizador:active, .btn-tareas:active{
+    border: 5px solid #de5f92;
+    box-shadow: 2px 2px 2px #D42B6F;
+
+}
+
+.add-logo {
+    width: 120px;
+    height: 120px;
+    margin-top: 5%;
+}
+
+.container-add {
+    background-color: #FFD1DE;
+    width: 550px;
+    height: 610px;
+    font-family: 'Gill Sans';
+    font-size: 18px;
+    border-radius: 20px;
+    color: #de5f92;
+    box-shadow: 5px 5px #FF9CB5;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+
+#nombre, #usuario, #email, #contraseña {
+    background-color: #FFE9EF;
+    width: 300px;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    align-content: center;
+    margin-top:-55px;
+    margin-left: 120px;
+    border-radius: 30px;
+    border: none;
+}
+
+#nombre:active {
+    border-color: #FF9CB5;
+}
+
+#btn-enviar, #btn-limpiar {
+    background-color: #ffa0bd;
+    width: 150px;
+    height: 35px;
+    font-family: 'Gill Sans';
+    color: #de5f92;
+    font-size: 16px;
+    border-radius: 40px;
+    margin-left: 200px;
+    border: none;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+#btn-enviar:hover, #btn-limpiar:hover {
+    width: 150px;
+    height: 35px;
+    background-color: #ff87aa;
+    align-content: center;
+    align-items: center;
+}
+
+label {
+    margin-left: 120px;
+    height: 500px;
+}
+
+h1 {
+    font-size: 22px;
+    align-items: center;
+}
+
+
+
+
